@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/OpenDataMontreal/.vs
+/OpenDataMontreal/OpenDataMontreal.Models/obj/Debug
+/OpenDataMontreal/OpenDataMontreal.Parser/obj/Debug
+/OpenDataMontreal/packages/TinyCsvParser.1.5.0
+/OpenDataMontreal/src/OpenDataMontreal/bin/Debug/net452/win7-x64
+/OpenDataMontreal/src/OpenDataMontreal/obj/Debug/net452
+/OpenDataMontreal/src/OpenDataMontreal/wwwroot/lib/bootstrap
+/OpenDataMontreal/src/OpenDataMontreal/wwwroot/lib
