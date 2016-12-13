@@ -44,7 +44,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSVParser\CsvParser.cs" />
+    <Compile Include="CSVParser\CsvFileParser.cs" />
     <Compile Include="Mappers\CsvCrimesMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
