@@ -1864,6 +1864,24 @@
         "runtime": {
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "TinyCsvParser/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/TinyCsvParser.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TinyCsvParser.dll": {}
+        }
+      },
+      "OpenDataMontreal.Models/1.0.0": {
+        "type": "project"
+      },
+      "OpenDataMontreal.Parser/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "OpenDataMontreal.Models": "1.0.0"
+        }
       }
     }
   },
@@ -4925,6 +4943,25 @@
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml"
       ]
+    },
+    "TinyCsvParser/1.5.0": {
+      "sha512": "I2DzXvXIMF9SsUoYyqW7L5yAffHq0ssGY8pfupj4NriPgZG4ClTNiHFTQuNwX57EN5Vyk4Rn6KnH6UroVr554Q==",
+      "type": "package",
+      "path": "TinyCsvParser/1.5.0",
+      "files": [
+        "TinyCsvParser.1.5.0.nupkg.sha512",
+        "TinyCsvParser.nuspec",
+        "lib/net45/TinyCsvParser.dll",
+        "lib/netstandard1.3/TinyCsvParser.dll"
+      ]
+    },
+    "OpenDataMontreal.Models/1.0.0": {
+      "type": "project",
+      "msbuildProject": "../../OpenDataMontreal.Models/OpenDataMontreal.Models.csproj"
+    },
+    "OpenDataMontreal.Parser/1.0.0": {
+      "type": "project",
+      "msbuildProject": "../../OpenDataMontreal.Parser/OpenDataMontreal.Parser.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4942,9 +4979,13 @@
       "Microsoft.Extensions.Logging.Console >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 1.0.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0"
+      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
+      "TinyCsvParser >= 1.5.0"
     ],
-    ".NETFramework,Version=v4.5.2": []
+    ".NETFramework,Version=v4.5.2": [
+      "OpenDataMontreal.Models",
+      "OpenDataMontreal.Parser"
+    ]
   },
   "tools": {
     ".NETCoreApp,Version=v1.0": {

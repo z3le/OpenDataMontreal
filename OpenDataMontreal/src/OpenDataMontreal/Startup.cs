@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using OpenDataMontreal.Helpers;
 
 namespace OpenDataMontreal
 {
@@ -35,7 +36,7 @@ namespace OpenDataMontreal
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-
+            services.Configure<UrlSettings>(Configuration.GetSection("UrlSettings"));
             services.AddMvc();
         }
 

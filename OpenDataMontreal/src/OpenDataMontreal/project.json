@@ -16,7 +16,8 @@
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0"
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+    "TinyCsvParser": "1.5.0"
   },
 
   "tools": {
@@ -26,7 +27,16 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net452": {
+      "dependencies": {
+        "OpenDataMontreal.Models": {
+          "target": "project"
+        },
+        "OpenDataMontreal.Parser": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "buildOptions": {

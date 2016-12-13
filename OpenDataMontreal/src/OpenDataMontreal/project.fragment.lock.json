@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "exports": {
+    "OpenDataMontreal.Models/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/OpenDataMontreal.Models.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/OpenDataMontreal.Models.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/OpenDataMontreal.Models.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "OpenDataMontreal.Parser/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/OpenDataMontreal.Parser.dll": {}
+      },
+      "runtime": {
+        "../packages/TinyCsvParser.1.5.0/lib/net45/TinyCsvParser.dll": {},
+        "bin/Debug/OpenDataMontreal.Parser.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/OpenDataMontreal.Parser.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
