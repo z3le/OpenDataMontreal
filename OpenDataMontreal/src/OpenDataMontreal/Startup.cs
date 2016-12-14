@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using OpenDataMontreal.Helpers;
+using Microsoft.CodeAnalysis;
+using TinyCsvParser.Mapping;
 
 namespace OpenDataMontreal
 {
@@ -37,7 +39,17 @@ namespace OpenDataMontreal
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
             services.Configure<UrlSettings>(Configuration.GetSection("UrlSettings"));
-            services.AddMvc();
+            services.AddMvc()
+             .AddRazorOptions(options =>
+              {
+                  var previous = options.CompilationCallback;
+                  options.CompilationCallback = context =>
+                  {
+                      previous?.Invoke(context);
+
+                      context.Compilation = context.Compilation.AddReferences(MetadataReference.CreateFromFile(typeof(CsvMappingResult<OpenDataMontreal.Models.CrimesModel>).Assembly.Location));
+                  };
+              });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
