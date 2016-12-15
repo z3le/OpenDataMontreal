@@ -36,6 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="TinyCsvParser, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TinyCsvParser.1.5.0\lib\net45\TinyCsvParser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -50,8 +54,21 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="CsvFileParserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenDataMontreal.Models\OpenDataMontreal.Models.csproj">
+      <Project>{F104B4DD-2553-4DDB-82AE-D9708E50BE71}</Project>
+      <Name>OpenDataMontreal.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenDataMontreal.Parser\OpenDataMontreal.Parser.csproj">
+      <Project>{BE337574-2892-462A-A66E-66E1DDCE4039}</Project>
+      <Name>OpenDataMontreal.Parser</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

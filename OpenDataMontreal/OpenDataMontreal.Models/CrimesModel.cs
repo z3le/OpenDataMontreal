@@ -14,12 +14,14 @@ namespace OpenDataMontreal.Models
 
         public string DayPart { get; set; }
 
-        public string PostNumber { get; set; }
+        public int PostNumber { get; set; }
 
-        public float CoordinateX { get; set; }
+        public double CoordinateX { get; set; }
 
-        public float CoordinateY { get; set; }
+        public double CoordinateY { get; set; }
 
-        public float Longitude { get; set; }
+        public double Latitude { get; set; }
+
+        public double Longitude { get; set; }
     }
 }

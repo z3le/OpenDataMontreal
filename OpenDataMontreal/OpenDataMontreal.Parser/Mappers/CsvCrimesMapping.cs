@@ -13,7 +13,8 @@ namespace OpenDataMontreal.Parser.Mappers
             MapProperty(3, x => x.PostNumber);
             MapProperty(4, x => x.CoordinateX);
             MapProperty(5, x => x.CoordinateY);
-            MapProperty(6, x => x.Longitude);
+            MapProperty(6, x => x.Latitude);
+            MapProperty(7, x => x.Longitude);
         }
     }
 }
