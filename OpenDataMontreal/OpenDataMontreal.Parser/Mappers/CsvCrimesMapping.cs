@@ -7,7 +7,7 @@ namespace OpenDataMontreal.Parser.Mappers
     {
         public CsvCrimesMapping() : base()
         {
-            MapProperty(0, x => x.Categorie);
+            MapProperty(0, x => x.Category);
             MapProperty(1, x => x.Date);
             MapProperty(2, x => x.DayPart);
             MapProperty(3, x => x.PostNumber);

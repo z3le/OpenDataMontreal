@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DataTables.AspNet.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -39,6 +40,9 @@ namespace OpenDataMontreal
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
             services.Configure<UrlSettings>(Configuration.GetSection("UrlSettings"));
+            services.RegisterDataTables();
+            services.AddDistributedMemoryCache();  
+            services.AddSession();
             services.AddMvc()
              .AddRazorOptions(options =>
               {
@@ -73,6 +77,7 @@ namespace OpenDataMontreal
             app.UseApplicationInsightsExceptionTelemetry();
 
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {

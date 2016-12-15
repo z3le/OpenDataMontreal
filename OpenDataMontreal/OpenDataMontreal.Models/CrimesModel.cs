@@ -8,7 +8,7 @@ namespace OpenDataMontreal.Models
 {
     public class CrimesModel
     {
-        public string Categorie { get; set; }
+        public string Category { get; set; }
 
         public DateTime Date { get; set; }
 

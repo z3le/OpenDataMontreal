@@ -11,3 +11,7 @@
 /OpenDataMontreal/src/OpenDataMontreal/wwwroot/lib/bootstrap
 /OpenDataMontreal/src/OpenDataMontreal/wwwroot/lib
 /OpenDataMontreal/OpenDataMontrealTests/obj/Debug
+/OpenDataMontreal/OpenDataMontreal.Models/bin/Debug
+/OpenDataMontreal/OpenDataMontreal.Parser/bin/Debug
+/OpenDataMontreal/OpenDataMontrealTests/bin/Debug
+/OpenDataMontreal/src/OpenDataMontreal/bin/Debug/net452
