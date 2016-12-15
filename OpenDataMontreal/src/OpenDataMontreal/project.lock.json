@@ -27,6 +27,18 @@
           "lib/net45/DataTables.AspNet.Core.dll": {}
         }
       },
+      "GeoJSON.Net/0.1.49": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp80+win8+wpa81/GeoJSON.Net.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp80+win8+wpa81/GeoJSON.Net.dll": {}
+        }
+      },
       "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
@@ -2114,6 +2126,17 @@
         "DataTables.AspNet.Core.nuspec",
         "lib/net45/DataTables.AspNet.Core.dll",
         "lib/netstandard1.1/DataTables.AspNet.Core.dll"
+      ]
+    },
+    "GeoJSON.Net/0.1.49": {
+      "sha512": "UQKpnG72tCxhJWhXTpYvis3Ug/DhH7xdQv8qEA4ZQVo04r9CdiXkAqxXbtfmGP1Yzk4/OihauW2jCzLLNtomrw==",
+      "type": "package",
+      "path": "GeoJSON.Net/0.1.49",
+      "files": [
+        "GeoJSON.Net.0.1.49.nupkg.sha512",
+        "GeoJSON.Net.nuspec",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/GeoJSON.Net.XML",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/GeoJSON.Net.dll"
       ]
     },
     "Libuv/1.9.0": {
@@ -5978,7 +6001,7 @@
       ]
     },
     "TinyCsvParser/1.5.0": {
-      "sha512": "jSYHGahcNiezRCGNEdfyTH1nZgqdZc5bOqtgrkqiIM/PAApnHdVptpG85G5pCQDW8lt3NGc+COcPHCK5k0MqjQ==",
+      "sha512": "I2DzXvXIMF9SsUoYyqW7L5yAffHq0ssGY8pfupj4NriPgZG4ClTNiHFTQuNwX57EN5Vyk4Rn6KnH6UroVr554Q==",
       "type": "package",
       "path": "TinyCsvParser/1.5.0",
       "files": [
@@ -6000,6 +6023,7 @@
   "projectFileDependencyGroups": {
     "": [
       "DataTables.AspNet.AspNetCore >= 2.0.0",
+      "GeoJSON.Net >= 0.1.49",
       "Microsoft.ApplicationInsights.AspNetCore >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics >= 1.0.0",
       "Microsoft.AspNetCore.Mvc >= 1.0.0",

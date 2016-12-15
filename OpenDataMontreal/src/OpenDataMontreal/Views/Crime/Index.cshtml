@@ -1,4 +1,6 @@
-﻿<br/>
+﻿@model System.Collections.Generic.List<OpenDataMontreal.Models.CrimesModel>
+
+<br />
 <div class="container">
     <table id="crimeTable"></table>
 </div>
@@ -41,4 +43,43 @@
             ]
         });
     });
+</script>
+
+<div id="map" style="width: 500px; height: 400px;"></div>
+
+<script>
+    function initMap() {
+        var uluru = { lat: -25.363, lng: 131.044 };
+        //var uluru = @Model.Select(x => new { lat = x.Latitude, lng = x.Longitude });
+
+        var markersArray = [];
+        var _map = null;
+        var _c = null;
+
+
+        @foreach(var item in Model)
+        {
+            <text>
+        markersArray.push(new google.maps.Marker({
+            draggable: true,
+            animation: google.maps.Animation.DROP,
+            position: new google.maps.LatLng('@item.Latitude', '@item.Longitude', false),
+            title: 'Whatever title',
+            map: _map
+        }));
+        </text>
+        }
+        console.log(uluru);
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
 </script>

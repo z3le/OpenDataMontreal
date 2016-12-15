@@ -1,0 +1,629 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "6548",
+          "short_name": "6548",
+          "types": [ "street_number" ]
+        },
+        {
+          "long_name": "Avenue de Chester",
+          "short_name": "Avenue de Chester",
+          "types": [ "route" ]
+        },
+        {
+          "long_name": "Notre-Dame-de-Grâce",
+          "short_name": "Notre-Dame-de-Grâce",
+          "types": [ "neighborhood", "political" ]
+        },
+        {
+          "long_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "short_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "types": [ "political", "sublocality", "sublocality_level_1" ]
+        },
+        {
+          "long_name": "Montréal",
+          "short_name": "Montréal",
+          "types": [ "locality", "political" ]
+        },
+        {
+          "long_name": "Communauté-Urbaine-de-Montréal",
+          "short_name": "Communauté-Urbaine-de-Montréal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        },
+        {
+          "long_name": "H4V 1J8",
+          "short_name": "H4V 1J8",
+          "types": [ "postal_code" ]
+        }
+      ],
+      "formatted_address": "6548 Avenue de Chester, Montréal, QC H4V 1J8, Canada",
+      "geometry": {
+        "location": {
+          "lat": 45.4699702,
+          "lng": -73.645932
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 45.4713191802915,
+            "lng": -73.64458301970851
+          },
+          "southwest": {
+            "lat": 45.4686212197085,
+            "lng": -73.64728098029151
+          }
+        }
+      },
+      "place_id": "ChIJA5nVuUAXyUwRy45JE_0W9ts",
+      "types": [ "street_address" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Cavendish / Chester",
+          "short_name": "Cavendish / Chester",
+          "types": [ "establishment", "point_of_interest" ]
+        },
+        {
+          "long_name": "Notre-Dame-de-Grâce",
+          "short_name": "Notre-Dame-de-Grâce",
+          "types": [ "neighborhood", "political" ]
+        },
+        {
+          "long_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "short_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "types": [ "political", "sublocality", "sublocality_level_1" ]
+        },
+        {
+          "long_name": "Montréal",
+          "short_name": "Montréal",
+          "types": [ "locality", "political" ]
+        },
+        {
+          "long_name": "Communauté-Urbaine-de-Montréal",
+          "short_name": "Communauté-Urbaine-de-Montréal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        },
+        {
+          "long_name": "H4V",
+          "short_name": "H4V",
+          "types": [ "postal_code", "postal_code_prefix" ]
+        }
+      ],
+      "formatted_address": "Cavendish / Chester, Montréal, QC H4V, Canada",
+      "geometry": {
+        "location": {
+          "lat": 45.470704,
+          "lng": -73.645719
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.4720529802915,
+            "lng": -73.6443700197085
+          },
+          "southwest": {
+            "lat": 45.4693550197085,
+            "lng": -73.64706798029151
+          }
+        }
+      },
+      "place_id": "ChIJWVkpxUAXyUwRvwKXPjAmgfA",
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Notre-Dame-de-Grâce",
+          "short_name": "Notre-Dame-de-Grâce",
+          "types": [ "neighborhood", "political" ]
+        },
+        {
+          "long_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "short_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "types": [ "political", "sublocality", "sublocality_level_1" ]
+        },
+        {
+          "long_name": "Montréal",
+          "short_name": "Montréal",
+          "types": [ "locality", "political" ]
+        },
+        {
+          "long_name": "Communauté-Urbaine-de-Montréal",
+          "short_name": "Communauté-Urbaine-de-Montréal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Notre-Dame-de-Grâce, Montréal, QC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.484108,
+            "lng": -73.5967256
+          },
+          "southwest": {
+            "lat": 45.4505503,
+            "lng": -73.65805809999999
+          }
+        },
+        "location": {
+          "lat": 45.4651745,
+          "lng": -73.6322193
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.484108,
+            "lng": -73.5967256
+          },
+          "southwest": {
+            "lat": 45.4505503,
+            "lng": -73.65805809999999
+          }
+        }
+      },
+      "place_id": "ChIJi-QgSrMQyUwRRTl-94amGWM",
+      "types": [ "neighborhood", "political" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "short_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "types": [ "political", "sublocality", "sublocality_level_1" ]
+        },
+        {
+          "long_name": "Montreal",
+          "short_name": "Montreal",
+          "types": [ "locality", "political" ]
+        },
+        {
+          "long_name": "Montreal",
+          "short_name": "Montreal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Côte-Des-Neiges—Notre-Dame-De-Grâce, Montreal, QC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.517062,
+            "lng": -73.59385109999999
+          },
+          "southwest": {
+            "lat": 45.44929,
+            "lng": -73.6763849
+          }
+        },
+        "location": {
+          "lat": 45.4911511,
+          "lng": -73.6326526
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.517062,
+            "lng": -73.59385109999999
+          },
+          "southwest": {
+            "lat": 45.44929,
+            "lng": -73.6763849
+          }
+        }
+      },
+      "place_id": "ChIJoyYME1kXyUwREE7zlomiETs",
+      "types": [ "political", "sublocality", "sublocality_level_1" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Montreal",
+          "short_name": "Montreal",
+          "types": [ "locality", "political" ]
+        },
+        {
+          "long_name": "Pointe-Calumet",
+          "short_name": "Pointe-Calumet",
+          "types": [ "administrative_area_level_3", "political" ]
+        },
+        {
+          "long_name": "Montreal",
+          "short_name": "Montreal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Montreal, QC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.7058381,
+            "lng": -73.47426
+          },
+          "southwest": {
+            "lat": 45.410246,
+            "lng": -73.986345
+          }
+        },
+        "location": {
+          "lat": 45.5016889,
+          "lng": -73.567256
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.7058381,
+            "lng": -73.47426
+          },
+          "southwest": {
+            "lat": 45.410246,
+            "lng": -73.94886509999999
+          }
+        }
+      },
+      "place_id": "ChIJDbdkHFQayUwR7-8fITgxTmU",
+      "types": [ "locality", "political" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "H4V 2N7",
+          "short_name": "H4V 2N7",
+          "types": [ "postal_code" ]
+        },
+        {
+          "long_name": "Notre-Dame-de-Grâce",
+          "short_name": "Notre-Dame-de-Grâce",
+          "types": [ "neighborhood", "political" ]
+        },
+        {
+          "long_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "short_name": "Côte-Des-Neiges—Notre-Dame-De-Grâce",
+          "types": [ "political", "sublocality", "sublocality_level_1" ]
+        },
+        {
+          "long_name": "Montréal",
+          "short_name": "Montréal",
+          "types": [ "locality", "political" ]
+        },
+        {
+          "long_name": "Communauté-Urbaine-de-Montréal",
+          "short_name": "Communauté-Urbaine-de-Montréal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Montreal, QC H4V 2N7, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.4704299,
+            "lng": -73.64215829999999
+          },
+          "southwest": {
+            "lat": 45.46873799999999,
+            "lng": -73.6459799
+          }
+        },
+        "location": {
+          "lat": 45.46964209999999,
+          "lng": -73.6441346
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.47093293029149,
+            "lng": -73.64215829999999
+          },
+          "southwest": {
+            "lat": 45.4682349697085,
+            "lng": -73.6459799
+          }
+        }
+      },
+      "place_id": "ChIJLbChRkcXyUwRbvI4N0pvqhw",
+      "types": [ "postal_code" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "H4V",
+          "short_name": "H4V",
+          "types": [ "postal_code", "postal_code_prefix" ]
+        },
+        {
+          "long_name": "Montreal",
+          "short_name": "Montreal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Québec H4V, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.478935,
+            "lng": -73.636115
+          },
+          "southwest": {
+            "lat": 45.456406,
+            "lng": -73.6577791
+          }
+        },
+        "location": {
+          "lat": 45.4671192,
+          "lng": -73.6501059
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.478935,
+            "lng": -73.636115
+          },
+          "southwest": {
+            "lat": 45.456406,
+            "lng": -73.6577791
+          }
+        }
+      },
+      "place_id": "ChIJH12SNj8XyUwR9ZkdgbeUgGw",
+      "types": [ "postal_code", "postal_code_prefix" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Montreal",
+          "short_name": "Montreal",
+          "types": [ "administrative_area_level_2", "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Montreal, QC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.7058381,
+            "lng": -73.47426
+          },
+          "southwest": {
+            "lat": 45.375141,
+            "lng": -73.986345
+          }
+        },
+        "location": {
+          "lat": 45.4699445,
+          "lng": -73.7852913
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.7058381,
+            "lng": -73.47426
+          },
+          "southwest": {
+            "lat": 45.4015981,
+            "lng": -73.97631369999999
+          }
+        }
+      },
+      "place_id": "ChIJl7TSQk3ex0wRM0QRpZ0sb30",
+      "types": [ "administrative_area_level_2", "political" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Montreal Metropolitan Area",
+          "short_name": "Montreal Metropolitan Area",
+          "types": [ "political" ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Montreal Metropolitan Area, QC, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.9830789,
+            "lng": -73.062268
+          },
+          "southwest": {
+            "lat": 45.2290141,
+            "lng": -74.26755899999999
+          }
+        },
+        "location": {
+          "lat": 45.5552492,
+          "lng": -73.57482820000001
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.9830789,
+            "lng": -73.062268
+          },
+          "southwest": {
+            "lat": 45.2290141,
+            "lng": -74.26755899999999
+          }
+        }
+      },
+      "place_id": "ChIJFf-RdwY5yUwRGH7jYDpIYec",
+      "types": [ "political" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [ "administrative_area_level_1", "political" ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Québec, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 62.600852,
+            "lng": -57.1054859
+          },
+          "southwest": {
+            "lat": 44.9913581,
+            "lng": -79.77947379999999
+          }
+        },
+        "location": {
+          "lat": 52.9399159,
+          "lng": -73.5491361
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 62.600852,
+            "lng": -57.1054859
+          },
+          "southwest": {
+            "lat": 44.9913581,
+            "lng": -79.77947379999999
+          }
+        }
+      },
+      "place_id": "ChIJoajRnzS1WEwRIABNrq0MBAE",
+      "types": [ "administrative_area_level_1", "political" ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [ "country", "political" ]
+        }
+      ],
+      "formatted_address": "Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 83.63809999999999,
+            "lng": -50.9766
+          },
+          "southwest": {
+            "lat": 41.6765559,
+            "lng": -141.00187
+          }
+        },
+        "location": {
+          "lat": 56.130366,
+          "lng": -106.346771
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 70,
+            "lng": -50
+          },
+          "southwest": {
+            "lat": 42,
+            "lng": -142
+          }
+        }
+      },
+      "place_id": "ChIJ2WrMN9MDDUsRpY9Doiq3aJk",
+      "types": [ "country", "political" ]
+    }
+  ],
+  "status": "OK"
+}

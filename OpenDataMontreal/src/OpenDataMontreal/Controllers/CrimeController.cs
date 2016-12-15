@@ -1,11 +1,14 @@
 ﻿using DataTables.AspNet.AspNetCore;
 using DataTables.AspNet.Core;
+using GeoJSON.Net.Feature;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using OpenDataMontreal.Extensions;
 using OpenDataMontreal.Helpers;
 using OpenDataMontreal.Models;
+using OpenDataMontreal.Models.GoogleMaps;
 using OpenDataMontreal.Parser.CSVParser;
 using OpenDataMontreal.Parser.Mappers;
 using System;
@@ -37,7 +40,7 @@ namespace OpenDataMontreal.Controllers
                 var getCrimesCsv = client.GetAsync(_settings.CrimesUrl).Result.Content.ReadAsStringAsync().Result;
                 var data = _parser.ParseCsvString(getCrimesCsv, _mapper).Select(x => x.Result).ToList();
                 HttpContext.Session.SetObjectAsJson("crimes", data);
-                return View();
+                return View(data);
             }
         }
 

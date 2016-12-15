@@ -20,7 +20,8 @@
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
     "TinyCsvParser": "1.5.0",
     "System.Linq": "4.0.0",
-    "Microsoft.AspNetCore.Session": "1.0.0"
+    "Microsoft.AspNetCore.Session": "1.0.0",
+    "GeoJSON.Net": "0.1.49"
   },
 
   "tools": {
