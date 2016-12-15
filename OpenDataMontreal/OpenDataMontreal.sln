@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataMontreal.Parser", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataMontreal.Models", "OpenDataMontreal.Models\OpenDataMontreal.Models.csproj", "{F104B4DD-2553-4DDB-82AE-D9708E50BE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataMontrealTests", "OpenDataMontrealTests\OpenDataMontrealTests.csproj", "{17CC09DE-F0E1-40F7-97DB-A4EECFA62C74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataMontreal.Tests", "OpenDataMontrealTests\OpenDataMontreal.Tests.csproj", "{17CC09DE-F0E1-40F7-97DB-A4EECFA62C74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
